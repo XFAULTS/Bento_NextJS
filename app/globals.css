@@ -37,3 +37,13 @@ display: flex;
 .box:hover{
   transform: scale(1.2);
 }
+
+.centerCSS{
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width:80%;
+  height:auto;
+}
