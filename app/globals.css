@@ -29,3 +29,11 @@ display: flex;
     text-wrap: balance;
   }
 }
+
+.box{
+  transition: transform .2s;
+}
+
+.box:hover{
+  transform: scale(1.2);
+}
