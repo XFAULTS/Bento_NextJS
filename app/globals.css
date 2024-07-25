@@ -32,10 +32,12 @@ display: flex;
 
 .box{
   transition: transform .2s;
+  box-shadow: 2px 2px;
 }
 
 .box:hover{
   transform: scale(1.2);
+  box-shadow: 5px 5px 5px 5px;
 }
 
 .centerCSS{
@@ -47,3 +49,4 @@ img {
   width:80%;
   height:auto;
 }
+
